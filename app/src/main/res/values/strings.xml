@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Buckheit Lab07</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="action_aboutme">About Me</string>
+    <string name="action_recyclerview">Recycler View</string>
+    <string name="action_settings">Navigation</string>
+    <string name="title_activity_activity__movie_detail">Movie Detail</string>
+    <string name="title_activity_test">TestActivity</string>
+    <string name="open_drawer">Open drawer</string>
+    <string name="close_drawer">Close drawer</string>
+    <string name="title_activity_simple_activity">Simple Activity</string>
+
+</resources>

@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bluebkgd"
+    android:baselineAligned="false">
+
+    <ImageView
+        android:paddingTop="60dp"
+        android:paddingBottom="60dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:src="@drawable/navbanner"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:text="About Me"
+        android:padding="10dp"
+        android:id="@+id/button_aboutme"
+        android:clickable="true" />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:padding="10dp"
+        android:text="Task 3 - Dialog Demo"
+        android:id="@+id/button_task3"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:padding="10dp"
+        android:text="Task 4 - Activity Demo"
+        android:id="@+id/button_task4"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:padding="10dp"
+        android:text="Task 5 - Contact Demo"
+        android:id="@+id/button_task5"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:id="@+id/textView_result"
+        android:text="Results Here"
+        android:layout_weight="1"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:textColor="@android:color/white" />
+</LinearLayout>

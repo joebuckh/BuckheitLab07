@@ -1,0 +1,218 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        tools:context=".MainActivity$PlaceholderFragment">
+
+
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:background="#ff4fa8d9"
+            android:orientation="vertical"
+            android:paddingLeft="@dimen/activity_horizontal_margin"
+            android:paddingRight="@dimen/activity_horizontal_margin"
+            android:paddingTop="@dimen/activity_vertical_margin"
+            android:paddingBottom="@dimen/activity_vertical_margin"
+            >
+
+            <TextView
+                android:id="@+id/txtView_moviename"
+                android:text="Movie Name Here"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                />
+
+            <TextView
+                android:id="@+id/txtView_year"
+                android:text="Year"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:paddingLeft="@dimen/activity_horizontal_margin"
+            android:paddingRight="@dimen/activity_horizontal_margin"
+            android:paddingTop="@dimen/activity_vertical_margin"
+            >
+
+            <ImageView
+                android:id="@+id/imgView_movie"
+                android:layout_width="110dp"
+                android:layout_height="170dp"
+                android:src="@drawable/alice"
+                android:scaleType="fitStart" />
+
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/txtView_description"
+                    android:text="Description"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:paddingLeft="16dp"
+                    />
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="2dip"
+            android:layout_marginTop="6dp"
+            android:layout_marginBottom="6dp"
+            android:background="#ffd1d1d1"
+            android:orientation="horizontal" >
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_gravity="center"
+            android:gravity="center"
+            >
+
+            <RatingBar
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/ratingBar"
+                android:numStars="10"
+                android:rating="5"
+                android:focusable="false"
+                android:isIndicator="true"
+                style="?android:attr/ratingBarStyleSmall" />
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_gravity="center"
+                android:gravity="center"
+                >
+                <TextView
+                    android:text="Rating: "
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+
+                    />
+                <TextView
+                    android:id="@+id/txtView_rating"
+                    android:text="Rating Here"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    />
+
+                </LinearLayout>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="2dip"
+            android:layout_marginTop="6dp"
+            android:layout_marginBottom="6dp"
+            android:background="#ffd1d1d1"
+            android:orientation="horizontal" >
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:paddingLeft="@dimen/activity_horizontal_margin"
+            >
+
+            <TextView
+                android:text="Director: "
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="#ff000000"
+                />
+
+            <TextView
+                android:id="@+id/txtView_director"
+                android:text="Director"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/widget_horizontal_white_bar"
+            android:layout_width="fill_parent"
+            android:layout_height="2dip"
+            android:layout_marginTop="6dp"
+            android:layout_marginBottom="6dp"
+            android:background="#ffd1d1d1"
+            android:orientation="horizontal" >
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:paddingLeft="@dimen/activity_horizontal_margin"
+            android:paddingRight="16dp"
+            >
+
+
+            <TextView
+                android:text="Stars: "
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="#ff000000"
+                />
+
+            <TextView
+                android:id="@+id/txtView_stars"
+                android:text="stars"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:singleLine="false"
+                />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_gravity="bottom"
+        android:layout_alignParentBottom="true"
+        >
+
+        <TextView
+            android:id="@+id/counter"
+            android:text="C L I C K  C O U N T E R"
+            android:layout_width="fill_parent"
+            android:layout_height="50dp"
+            android:background="#ff4fa8d9"
+            android:layout_gravity="bottom"
+            android:gravity="center"
+            android:visibility="gone"
+            />
+
+    </LinearLayout>
+
+</RelativeLayout>
